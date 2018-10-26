@@ -3,8 +3,7 @@ using System.Collections;
 
 public class Pong_LoseBox : MonoBehaviour 
 {
-	//make a reference to your Pong_GameManager script and access the public lose function
-	public Pong_GameManager gameManager;
+	
 	// Use this for initialization
 	void Start () {
 	
