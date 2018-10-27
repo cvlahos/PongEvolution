@@ -6,7 +6,7 @@ public class Ark_GameManager : MonoBehaviour
 {
 	public static int score;
 	public int totalBrickCount;
-	static public int playerChances = 3;
+	public static int playerChances = 3;
 
 	public bool detectorsEnabled;
 
