@@ -12,7 +12,6 @@ public class Pong_GameManager : MonoBehaviour
 	//make a public variable to keep track the player's score use the variable type int
 	public int score;
 
-	public bool missedIt;
 
 	// Use this for initialization
 	void Start () 
