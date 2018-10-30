@@ -7,7 +7,7 @@ public class BO_Brick : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
-		gameManager.totalBrickCount++;
+		gameManager.totalBrickCount = gameManager.totalBrickCount + 1;
 	}
 	
 	// Update is called once per frame
@@ -19,10 +19,8 @@ public class BO_Brick : MonoBehaviour
 	void OnCollisionEnter2D()
 	{
 		//Debug.Log ("Collision Dectected");
-
-		gameManager.score++;
-		//gameManager.score = gameManager.score + 1;
-		gameManager.totalBrickCount--;
+		gameManager.totalBrickCount = gameManager.totalBrickCount - 1;
+		Destroy (gameObject);
 		Destroy (gameObject);
 		
 	}
