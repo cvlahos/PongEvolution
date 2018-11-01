@@ -18,7 +18,7 @@ public class BO_Brick : MonoBehaviour
 
 	void OnCollisionEnter2D()
 	{
-		//Debug.Log ("Collision Dectected");
+		gameManager.score = gameManager.score + 1;
 		gameManager.totalBrickCount = gameManager.totalBrickCount - 1;
 		Destroy (gameObject);
 		
