@@ -38,7 +38,7 @@ public class Pong_GameManager : MonoBehaviour
 	{
 		if (score == 5)
 		{
-			scoreText.text = "Great Job Champ";
+			feedbackText.text = "Great Job Champ";
 		}
 	}
 	//Make a public function to show a lose message once the player hits the lose box
